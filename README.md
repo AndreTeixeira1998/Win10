@@ -1,3 +1,5 @@
+<p align="center"> <img src="https://i.imgur.com/lp2W37e.gif">
+
 ## watermark_disabler
 Disabling "Activate Windows" watermark made simple, the code in this repository is a PoC, and has not been tested above Windows 10 1803.
 
