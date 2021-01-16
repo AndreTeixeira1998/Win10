@@ -36,15 +36,4 @@ PaintWatermark calls GreExtTextOutWInternal (which is the internal function for 
 The argument passed for size (c) is a global called "gSafeModeStrLen", by setting the size (c) to 0, the string won't be rendered. The pattern for the aforementioned global inside win32kfull is 44 8B C8 44 89 0D + 7
 
 
-<p align="center">
-  Follow Me On
-</p>
-<p align="center">
-  <a href="https://www.youtube.com/channel/UC5ba_E8pgMV0ETCRn7PQzUg?view_as=subscriber">
-    <img src="https://www.iconsdb.com/icons/preview/black/youtube-4-xxl.png" width="40" height="40">
-  </a>
-  <a href="https://instagram.com/froggy__19">
-    <img src="http://clipart-library.com/images_k/instagram-png-transparent/instagram-png-transparent-16.png" width="40" height="40">
-    </a>
-</p>
 <p align="center"> <a href="https://www.buymeacoffee.com/tahiri" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a> <p>
