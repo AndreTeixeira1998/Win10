@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://i.imgur.com/lp2W37e.gif">
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Animated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif"></p>
 
 ## watermark_disabler
 Disabling "Activate Windows" watermark made simple, the code in this repository is a PoC, and has not been tested above Windows 10 1803.
@@ -37,3 +37,11 @@ The argument passed for size (c) is a global called "gSafeModeStrLen", by settin
 
 
 <p align="center"> <a href="https://www.buymeacoffee.com/tahiri" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a> <p>
+<p align="center">
+    <a href="https://yassertahiri.medium.com/">
+    <img alt="Medium" src="https://img.shields.io/badge/Medium%20-%23000000.svg?&style=for-the-badge&logo=Medium&logoColor=white"/></a>
+    <a href="https://twitter.com/THyasser1">
+    <img alt="Twitter" src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"</a>
+    <a href="https://discord.gg/crNvkTYPYG">
+    <img alt="Discord" src="https://img.shields.io/badge/Discord%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/></a>
+</p>
