@@ -1,7 +1,7 @@
 #include <utility>
-#include "mem_scan.hpp"
-#include "mem_iter.hpp"
-#include "mem_util.hpp"
+#include "win_scan.hpp"
+#include "win_iter.hpp"
+#include "win_util.hpp"
 
 
 template <typename ...Args>
@@ -19,7 +19,6 @@ NTSTATUS driver_entry( )
 {
 	output_appended( "loaded" );
 
-	/* we have to attach to csrss, or any process with win32k mapped into it, because win32k is not mapped in system modules */
 	const auto csrss_process = impl::search_for_process( "csrss.exe" );
 
 	if ( !csrss_process )

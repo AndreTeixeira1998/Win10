@@ -35,6 +35,13 @@ PaintWatermark calls GreExtTextOutWInternal (which is the internal function for 
 
 The argument passed for size (c) is a global called "gSafeModeStrLen", by setting the size (c) to 0, the string won't be rendered. The pattern for the aforementioned global inside win32kfull is 44 8B C8 44 89 0D + 7
 
+## vcpkg :
+vcpkg is a cross-platform command-line package manager for C and C++ libraries. It simplifies the acquisition and installation of third-party libraries on Windows, Linux, and macOS. If your project uses third-party libraries, we recommend that you use vcpkg to install them. vcpkg supports both open-source and proprietary libraries. All libraries in the vcpkg Windows catalog have been tested for compatibility with Visual Studio 2015, Visual Studio 2017, and Visual Studio 2019. Between the Windows and Linux/macOS catalogs, vcpkg now supports thousands of libraries. The C++ community adds more libraries to both catalogs on an ongoing basis.
+
+- https://docs.microsoft.com/en-us/cpp/build/vcpkg?view=msvc-160
+
+- https://stackoverflow.com/questions/60245518/get-vcpkg-to-include-the-vcpkg-include-directory-in-the-include-path-when-buildi
+
 
 <p align="center"> <a href="https://www.buymeacoffee.com/tahiri" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a> <p>
 <p align="center">

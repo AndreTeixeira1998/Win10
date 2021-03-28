@@ -1,0 +1,19 @@
+{
+    "cSpell.words": [
+        "KAPC",
+        "NTAPI",
+        "NTSTATUS",
+        "NTSYSAPI",
+        "PCHAR",
+        "PVOID",
+        "asmx",
+        "calle",
+        "csrss",
+        "gpsi",
+        "kfull",
+        "ntoskrnl",
+        "raii",
+        "unexported"
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}/watermark WIN10/watermark_disabler"
+}

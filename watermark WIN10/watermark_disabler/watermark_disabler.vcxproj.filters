@@ -16,19 +16,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mem_defs.hpp">
+    <ClInclude Include="win_defs.hpp">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="mem_scan.hpp">
+    <ClInclude Include="win_scan.hpp">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="mem_iter.hpp">
+    <ClInclude Include="win_iter.hpp">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="util_raii.hpp">
+    <ClInclude Include="win_raii.hpp">
       <Filter>header</Filter>
     </ClInclude>
-    <ClInclude Include="mem_util.hpp">
+    <ClInclude Include="win_util.hpp">
       <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>

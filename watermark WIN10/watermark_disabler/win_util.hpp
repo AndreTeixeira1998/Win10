@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <memory>
-#include "mem_defs.hpp"
+#include "win_defs.hpp"
 
 namespace impl
 {
@@ -54,21 +54,18 @@ namespace impl
 	template <typename T = std::uint8_t*>
 	__forceinline T follow_call( std::uint8_t* address )
 	{
-		/* + 1 is the address of the calle, + 5 is the size of a call instruction */
 		return ( T )( address + *reinterpret_cast< std::int32_t* >( address + 1 ) + 5 );
 	}
 
 	template <typename T = std::uint8_t*>
 	__forceinline T follow_conditional_jump( std::uint8_t* address )
 	{
-		/* + 1 is the offset of the jump, + 2 is the size of a conditional jump */
 		return ( T )( address + *reinterpret_cast< std::int8_t* >( address + 1 ) + 2 );
 	}	
 
 	template <typename T = std::uint8_t*>
 	__forceinline T resolve_mov( std::uint8_t* address )
 	{
-		/* + 3 is the address of the source, + 7 is the size of a mov instruction */
 		return ( T )( address + *reinterpret_cast<std::int32_t*>( address + 3 ) + 7 );
 	}
 }
