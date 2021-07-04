@@ -166,11 +166,11 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="win_defs.hpp" />
-    <ClInclude Include="win_iter.hpp" />
-    <ClInclude Include="win_scan.hpp" />
-    <ClInclude Include="win_util.hpp" />
-    <ClInclude Include="util_raii.hpp" />
+    <ClInclude Include="win/win_defs.hpp" />
+    <ClInclude Include="win/win_iter.hpp" />
+    <ClInclude Include="win/win_scan.hpp" />
+    <ClInclude Include="win/win_util.hpp" />
+    <ClInclude Include="utils/util_raii.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
