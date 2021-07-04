@@ -1,7 +1,7 @@
 #include <utility>
-#include "win_scan.hpp"
-#include "win_iter.hpp"
-#include "win_util.hpp"
+#include "win/win_scan.hpp"
+#include "win/win_iter.hpp"
+#include "win/win_util.hpp"
 
 
 template <typename ...Args>
